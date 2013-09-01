@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Marianne Hesselholt - Forfatter og Foredragsholder.</title>
+	<script type="text/javascript" src="js/jquery.js" ></script>
 </head>
 <body>
 	<h1>Header</h1>
