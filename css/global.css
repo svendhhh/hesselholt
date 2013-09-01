@@ -1,0 +1,50 @@
+
+div#content{
+    width:940px;
+    margin: auto;
+}
+
+div.text{
+    padding:5px;
+}
+
+#headerNav{
+}
+
+#nav{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    border:3px solid #003366;
+}
+
+#nav li{
+    display:inline;
+    padding: 5px;
+}
+
+#nav a{
+    border-radius:5px;
+}
+
+#nav {
+       background:#003366;
+}
+
+#nav li:hover {
+   text-decoration:underline;
+}
+
+a:link,a:visited {
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#009933;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+a:hover,a:active {
+    background-color:#063;
+}
