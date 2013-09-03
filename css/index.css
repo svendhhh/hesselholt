@@ -17,16 +17,39 @@
 
 #intro {
     height: 200px;
+    border: 1px solid black;
 }
 
 #featuredbook{
-    height: 100px;
+    height: 200px;
+    width: 690px;
+    border: 1px solid black;
+}
+
+#featuredbookimg{
+    background-image: url('../img/digteren-og-malerinden.png');
+    margin: 10px;
+    height: 180px;
+    width: 115px;
+    background-repeat: no-repeat;
+    float:left;
+}
+
+#featuredbooktxt{
+    margin: 10px;
 }
 
 #latestblog{
-    height: 100px;
+    width: 242px;
+    border: 1px solid black;
 }
 
 #nexttalk{
+    height: 200px;
+    border: 1px solid black;
+}
+
+#externallinks{
     height: 100px;
+    border: 1px solid black;
 }
