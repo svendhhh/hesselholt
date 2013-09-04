@@ -16,7 +16,7 @@ div.text{
     list-style-type:none;
     margin:0px;
     padding:0px;
-    border:3px solid #003366;
+    border:3px solid #330;
 }
 
 #nav li{
@@ -29,25 +29,25 @@ div.text{
 }
 
 #nav {
-       background:#003366;
+       background:#330;
 }
 
 #nav li:hover {
    text-decoration:underline;
 }
 
-a:link,a:visited {
+a:link,a:visited,button {
     font-weight:bold;
     color:#FFFFFF;
-    background-color:#009933;
+    background-color:#690;
     text-align:center;
     padding:6px;
     text-decoration:none;
     text-transform:uppercase;
 }
 
-a:hover,a:active {
-    background-color:#063;
+a:hover,a:active,button:hover {
+    background-color:#663;
 }
 
 .skinnytable{
@@ -61,3 +61,4 @@ span.title{
     font-size:18px;
     display:block;
 }
+

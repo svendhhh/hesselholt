@@ -11,13 +11,20 @@
     height: 173px;
     float:right;
     position:relative;
+    margin: 0px 10px 0px 0px;
     top:-20px;
     border-radius:10px;
 }
 
 #intro {
-    height: 200px;
+    height: 175px;
     border: 1px solid black;
+    font-size: 19px;
+    text-align: center;
+}
+
+#intro p {
+    margin-top:30px;
 }
 
 #featuredbook{
@@ -35,8 +42,35 @@
     float:left;
 }
 
-#featuredbooktxt{
-    margin: 10px;
+#featuredbooktxt p {
+    margin-top: 20px;
+}
+
+#featuredbook .readmore{
+    position: absolute;
+    top: 583px;
+    left: 1062px
+}
+
+#featuredbook .readmore:hover, #latestblog .readmore:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#featuredbook .title, #nexttalk .title, #externallinks .title, #latestblog .title {
+    background-color: #330;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+#featuredbook .booktitle {
+    font-weight:bold;
+    margin: 5px;
+}
+
+#featuredbook .booktext {
+    margin: 0px;
 }
 
 #latestblog{
@@ -44,12 +78,47 @@
     border: 1px solid black;
 }
 
+#latestblog .readmore {
+    position: absolute;
+    left: 1309px;
+    top: 787px;
+}
+
+#latestblog p {
+    padding-left: 5px;
+}
+
+#latestblog .blogtitle {
+    margin:0;
+    font-weight: bold;
+}
+
+#latestblog .blogdate {
+    font-style: italic;
+}
+
+#latestblog .blogtext {
+    font-size: 15px;
+}
+
 #nexttalk{
     height: 200px;
     border: 1px solid black;
 }
 
-#externallinks{
+#externallinks {
     height: 100px;
     border: 1px solid black;
+    padding: 1px;
+}
+
+#externallinks ul li{
+    float: left;
+    list-style-type: none;
+    margin: auto;
+    padding: 0px 50px 0px 50px;
+}
+
+#nexttalk p {
+    margin: 30px 0 0 30px;
 }
