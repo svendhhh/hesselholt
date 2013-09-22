@@ -12,6 +12,15 @@ div.text{
 #headerNav{
 }
 
+[data-selected="1"] [data-row="1"],
+[data-selected="2"] [data-row="2"],
+[data-selected="3"] [data-row="3"],
+[data-selected="4"] [data-row="4"],
+[data-selected="5"] [data-row="5"]{
+    background-color: #00F;
+}
+
+
 #nav{
     list-style-type:none;
     margin:0px;

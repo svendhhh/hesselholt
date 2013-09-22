@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+<?php
+require 'macros.php';
+?>
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -10,18 +14,8 @@
 </head>
 <body>
   <div id="content">
-    <div id="headerImg"></div>
-    <div id="headerNav">
-      <ul id="nav">
-	<a href="index.php"><li>Hjem</li></a>
-	<a href="about.php"><li>Om Marianne</li></a>
-	<a href="books.php"><li>Mariannes bøger</li></a>
-	<a href="talks.php"><li>Foredrag</li></a>
-	<a href="contact.php"><li>Kontakt</li></a>
-      </ul>
-    </div>
     <div id="body">
-
+      <?php insert_header(1); ?>
       <div id="mugshot"></div>
       <div id="intro" class="text">
 	<p>
