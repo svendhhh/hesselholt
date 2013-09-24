@@ -1,0 +1,19 @@
+table.books{
+	width:648px;
+	border:0;
+	margin:auto;
+}
+table.books td{
+	text-align:center;
+	width:177px;
+	margin:0 4px;
+}
+table.books td .booktitle{
+    width:100%;
+    text-align:center;
+    height:30px;
+    display:block;
+}
+table.books img{
+margin:auto;	
+}

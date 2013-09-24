@@ -9,8 +9,8 @@ require 'macros.php';
   <title>Marianne Hesselholt - Forfatter og Foredragsholder.</title>
   <script type="text/javascript" src="js/jquery.js" ></script>
   <script type="text/javascript" src="js/global.js" ></script>
-  <link href="css/index.css" type="text/css" rel="stylesheet"></link>
-  <link href="css/global.css" type="text/css" rel="stylesheet"></link>
+  <link href="css/index.css?0" type="text/css" rel="stylesheet"></link>
+  <link href="css/global.css?0" type="text/css" rel="stylesheet"></link>
 </head>
 <body>
   <div id="content">

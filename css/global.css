@@ -1,8 +1,19 @@
-
+body {
+    overflow: scroll;
+}
+#headerImg{
+    background-image:url('../img/header.jpg');
+    background-repeat:no-repeat;
+    height:198px;
+}
 div#content{
     width:940px;
     margin: auto;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+div.content-frame{
+    border: 1px solid black;
 }
 
 div.text{
@@ -17,7 +28,7 @@ div.text{
 [data-selected="3"] [data-row="3"],
 [data-selected="4"] [data-row="4"],
 [data-selected="5"] [data-row="5"]{
-    background-color: #00F;
+    background-color: #663;
 }
 
 
@@ -45,7 +56,7 @@ div.text{
    text-decoration:underline;
 }
 
-a:link,a:visited,button {
+#nav a:link,a:visited,button {
     font-weight:bold;
     color:#FFFFFF;
     background-color:#690;
@@ -55,7 +66,7 @@ a:link,a:visited,button {
     text-transform:uppercase;
 }
 
-a:hover,a:active,button:hover {
+#nav a:hover,a:active,button:hover {
     background-color:#663;
 }
 
