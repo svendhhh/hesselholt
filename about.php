@@ -16,6 +16,7 @@ require 'macros.php';
   <div id="content">
     <div id="body">
       <?php insert_header(2); ?>
+      <div id="mugshot"></div>
       <div class="content-frame text">
 	<p>
 	  Født 7.9 1943 i Strandby ved Frederikshavn.
