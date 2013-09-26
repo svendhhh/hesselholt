@@ -1,19 +1,21 @@
 table.books{
 	width:648px;
 	border:0;
-	margin:auto;
+	margin:20px auto;
 }
 table.books td{
 	text-align:center;
 	width:177px;
-	margin:0 4px;
+	margin:20px 4px;
+	font-size:13px;
 }
 table.books td .booktitle{
     width:100%;
     text-align:center;
     height:30px;
     display:block;
+    color:#00f;
 }
 table.books img{
-margin:auto;	
+    margin:auto;
 }
