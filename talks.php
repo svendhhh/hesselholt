@@ -21,53 +21,58 @@ $year2=$year1+1;
       <?php insert_header(4); ?>
       <div class="content-frame text">
 	<div class="centred">
+	  <table>
+	    <tr>
+	      <td>
+		<h2> Kalender <?php echo $year1; ?></h2>
+		<ul>
+		  <?php
 
-	  <h2> Kalender <?php echo $year1; ?></h2>
-	  <ul>
-	  <?php
+		     // Get first file for first period in calendar.
+		     $lines = file($year1 . '.txt', FILE_SKIP_EMPTY_LINES);
 
-	     // Get first file for first period in calendar.
-	     $lines = file($year1 . '.txt', FILE_SKIP_EMPTY_LINES);
+		     foreach($lines as $line) {
+		     if($line == null || strlen(trim($line)) == 0) continue;
 
-	     foreach($lines as $line) {
-	     if($line == null || strlen(trim($line)) == 0) continue;
+		     $parts = preg_split("/[\s]*,[\s]*/", $line);
+		     if(count($parts) != 3) continue;
+		     ?>
+		  <li>
+		    <b><?=trim($parts[0])?></b> - <?=trim($parts[1])?><br>
+		    <?=trim($parts[2])?>.<p>
+		  </li>
 
-	     $parts = preg_split("/[\s]*,[\s]*/", $line);
-	     if(count($parts) != 3) continue;
-	     ?>
-	  <li>
-	    <b><?=trim($parts[0])?></b> - <?=trim($parts[1])?><br>
-	    <?=trim($parts[2])?>.<p>
-	  </li>
+		  <?php
+		     }
+		     ?>
+		</ul>
+	      </td>
 
-	      <?php
-		 }
-		 ?>
-</ul>
+	      <td valign="top">
+		<h2> Kalender <?php echo $year2; ?></h2>
+		<ul> 
+		  <?php
 
-<h2> Kalender <?php echo $year2; ?></h2>
+		     // Get first file for first period in calendar.
+		     $lines = file($year2 . '.txt', FILE_SKIP_EMPTY_LINES);
 
-<ul> 
-  <?php
+		     foreach($lines as $line) {
+		     if($line == null || strlen(trim($line)) == 0) continue;
 
-     // Get first file for first period in calendar.
-     $lines = file($year2 . '.txt', FILE_SKIP_EMPTY_LINES);
-
-     foreach($lines as $line) {
-     if($line == null || strlen(trim($line)) == 0) continue;
-
-     $parts = preg_split("/[\s]*,[\s]*/", $line);
-     if(count($parts) != 3) continue;
-     ?>
-  <li>
-    <b><?=trim($parts[0])?></b> - <?=trim($parts[1])?><br>
-    <?=trim($parts[2])?>.<p>
-  </li>
-<?php
-}
-?>
-</ul>
-
+		     $parts = preg_split("/[\s]*,[\s]*/", $line);
+		     if(count($parts) != 3) continue;
+		     ?>
+		  <li>
+		    <b><?=trim($parts[0])?></b> - <?=trim($parts[1])?><br>
+		    <?=trim($parts[2])?>.<p>
+		  </li>
+		  <?php
+		     }
+		     ?>
+		</ul>
+	      </td>
+	    </tr>
+	  </table>
 	</div>
 
       </div>

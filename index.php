@@ -28,7 +28,7 @@ require 'macros.php';
 	    <div id="featuredbookimg"></div>
 	    <div id="featuredbooktxt">
 	      <span class="title">
-		Featurede bog
+		Seneste bog
 	      </span>
 	      <p class="booktitle">
 		Digteren og Malerinden

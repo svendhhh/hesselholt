@@ -20,7 +20,7 @@ $year2=$year1+1;
     <div id="body">
       <?php insert_header(5); ?>
       <div class="content-frame text">
-
+	Hvis du vil i kontakt med mig, kan du sende en email til <img src="img/email.gif" style="vertical-align:middle">, eller besoege min blog <a href="blog.hesselholt.com">her</a>.
       </div>
     </div>
   </div>
