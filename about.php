@@ -18,6 +18,10 @@ require 'macros.php';
       <?php insert_header(2); ?>
       <div id="mugshot"></div>
       <div class="content-frame text">
+	<span class="title">Lidt om forfatteren:</span>
+	<p>
+	  Marianne Hesselholt er født 7.9 1943 i den lille nordjyske fiskerby Strandby, hvor faderen Magnus Hesselholt var auktionsmester, mens moderen, Vera Hesselholt, var hjemmegående og tog sig af husholdningen og de 5 børn. Som 9årig kom hun på Freys Skole i Frederikshavn og tog herfra realeksamen.
+	</p>
 	<p>
 	  Født 7.9 1943 i Strandby ved Frederikshavn.
 	</p>
