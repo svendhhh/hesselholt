@@ -19,7 +19,7 @@ require 'macros.php';
       <div id="mugshot"></div>
       <div id="intro" class="text">
 	<p>
-	  Velkommen til Marianne Hesselholts website. Marianne er forfatter af mange dejlige bøger fra historiske romaner til børnebøger og digtsamlinger. Her kan man læse mere om Mariannes arbejde og finde information om opkommende foredrag. 
+Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om et forfatterskab, der udfolder sig i børnebøger, romaner og noveller, og om en foredragsvirksomhed, der tager udgangspunkt i de temaer, der behandles i de litterære værker, f. eks.: udvandrere, outsidere, engle, salmedigtere og egnshistorie. Desuden vil du kunne læse lidt om personen bag disse virksomheder.
 	</p>
       </div>
       <table class="skinnytable">
