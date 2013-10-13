@@ -1,14 +1,14 @@
-19. Februar, &Oslash;dum, Foredrag om Hjemstavn og Udsyn
-20. Februar, Randers, Foredrag om Lucie
-21. Februar, Viborg, Foredrag om Ingemann
-25. Februar, Randers, Foredrag om Hans Fugl
-27. Februar, Randers, Foredrag om Hans Fugl
-12. Marts, Hadsten, Foredrag om "Skyggen af en Hverdag"
-2. April, &Aring;rs, Foredrag om Lucie Ingemann
-26. September, &Aring;rhus, Foredrag om "Skyggen af en Hverdag"
-10. Oktober, Vildbjerg, Foredrag om Hans Fugl
-26. Oktober, Randers, Foredrag om mit forfatterskab
-30. Oktober, Randers, Foredrag om Lucie Mandix
-6. November, &Aring;rhus, Foredrag om "Skyggen af en Hverdag"
-11. November, Randers, Foredrag om de danske udvandrere til Argentina
-13. November, Bindslev, Foredrag om engle
+2013-02-19, &Oslash;dum, Foredrag om Hjemstavn og Udsyn
+2013-02-20, Randers, Foredrag om Lucie
+2013-02-21, Viborg, Foredrag om Ingemann
+2013-02-25, Randers, Foredrag om Hans Fugl
+2013-02-27, Randers, Foredrag om Hans Fugl
+2013-03-12, Hadsten, Foredrag om "Skyggen af en Hverdag"
+2013-04-02, &Aring;rs, Foredrag om Lucie Ingemann
+2013-09-26, &Aring;rhus, Foredrag om "Skyggen af en Hverdag"
+2013-10-10, Vildbjerg, Foredrag om Hans Fugl
+2013-10-26, Randers, Foredrag om mit forfatterskab
+2013-10-30, Randers, Foredrag om Lucie Mandix
+2013-11-06, &Aring;rhus, Foredrag om "Skyggen af en Hverdag"
+2013-11-11, Randers, Foredrag om de danske udvandrere til Argentina
+2013-11-13, Bindslev, Foredrag om engle

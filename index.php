@@ -52,7 +52,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	    <p class="blogtext">
 	      Sidder for tiden dag ud og dag ind og læser Skagen Avis fra 1919 – 1925, og det kan ind imellem synes spild af tid, men af og til fanger man en flig af tidens atmosfære, og det er jo godt for en forfatter, der vil skrive om gamle dage.
 	    </p>
-	    <button class="readmore">Læs mere</button>
+	    <button class="readmore" onclick="location.href='http://blog.hesselholt.com'">Læs mere</button>
 	  </td>
 	</tr>
 	<tr>
@@ -63,17 +63,25 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	    <p>
 	      <?php
 		 $today = getdate();
+		 $today_month = intval($today['mon']);
+		 $today_day = intval($today['mday']);
 		 $lines = file("2013.txt", FILE_SKIP_EMPTY_LINES);
 		 $count = 0;
 		 foreach($lines as &$line) {
-		 if ($count > 3) { break; }
-	      $parts = explode(",", $line);
-	      $line_date = date_parse($parts[0]);
-	      if ($line_date['month'] < $today['mon'] || ($line_date['month'] == $today['mon'] && $line_date['day'] < $today['mday'])) { continue; }
-	    print($line."<br>");
-	    $count++;
-	    }
-	    ?>
+		   if ($count > 3) { break; }
+	           $parts = explode(",", $line);
+	           $line_date = date_parse($parts[0]);
+	           $line_month = intval($line_date['month']);
+	           $line_day = intval($line_date['day']);
+	           if ($line_month < $today_month) { continue; }
+                   if ($line_month == $today_month && $line_day < $today_day) { continue; }
+	           print($line_day . "/" . $line_month . " - " . implode(array_slice($parts, 1))."<br>");
+	           $count++;
+	        }
+                if ($count < 4) {
+		  $lines = file("2013.txt", FILE_SKIP_EMPTY_LINES);
+                }  
+	      ?>
             </p>
 	  </td>
 	</tr>
