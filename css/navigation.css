@@ -1,0 +1,89 @@
+
+#headerNav{
+	position: relative;
+}
+
+[data-row="1"],
+[data-row="2"],
+[data-row="3"],
+[data-row="4"],
+[data-row="5"]{
+    background-color:#690;
+}
+
+[data-selected="1"] [data-row="1"],
+[data-selected="2"] [data-row="2"],
+[data-selected="3"] [data-row="3"],
+[data-selected="4"] [data-row="4"],
+[data-selected="5"] [data-row="5"]{
+    background-color: #663;
+}
+
+
+#nav{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    border:3px solid #330;
+}
+
+#nav li{
+    display:inline;
+    position:relative;
+    z-index:500;
+    margin:0 1px;
+    padding: 5px;
+    border-radius:5px;
+}
+
+#nav a{
+    height:23px;
+    text-align:center;
+}
+
+#nav {
+    background:#330;
+}
+
+#nav li:hover {
+    text-decoration:underline;
+    background-color:#663;
+}
+
+#nav a:link,a:visited,button {
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#nav a:hover,a:active,button:hover {
+}
+
+/* submenu, it's hidden by default */
+#nav ul {
+    position:absolute;
+    left:0;
+    display:none;
+    margin:0 0 0 -1px;
+    padding:0;
+    list-style:none;
+}
+#nav ul li {
+    float:left;
+    border-top:1px solid #fff;
+}
+
+/* display block will make the link fill the whole area of LI */
+#nav ul a {
+    display:block;
+    height:15px;
+    padding: 8px 5px;
+    color:#666;
+}
+
+#nav ul a:hover {
+    text-decoration:underline;    
+}

@@ -30,56 +30,6 @@ div.text{
     padding:5px;
 }
 
-#headerNav{
-}
-
-[data-selected="1"] [data-row="1"],
-[data-selected="2"] [data-row="2"],
-[data-selected="3"] [data-row="3"],
-[data-selected="4"] [data-row="4"],
-[data-selected="5"] [data-row="5"]{
-    background-color: #663;
-}
-
-
-#nav{
-    list-style-type:none;
-    margin:0px;
-    padding:0px;
-    border:3px solid #330;
-}
-
-#nav li{
-    display:inline;
-    padding: 5px;
-}
-
-#nav a{
-    border-radius:5px;
-}
-
-#nav {
-       background:#330;
-}
-
-#nav li:hover {
-   text-decoration:underline;
-}
-
-#nav a:link,a:visited,button {
-    font-weight:bold;
-    color:#FFFFFF;
-    background-color:#690;
-    text-align:center;
-    padding:6px;
-    text-decoration:none;
-    text-transform:uppercase;
-}
-
-#nav a:hover,a:active,button:hover {
-    background-color:#663;
-}
-
 .skinnytable{
     border-spacing:0px;
     padding: 0;

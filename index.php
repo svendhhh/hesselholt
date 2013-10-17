@@ -4,13 +4,8 @@
 require 'macros.php';
 ?>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Marianne Hesselholt - Forfatter og Foredragsholder.</title>
-  <script type="text/javascript" src="js/jquery.js" ></script>
-  <script type="text/javascript" src="js/global.js" ></script>
+<?php macro_open_head(); ?>
   <link href="css/index.css?0" type="text/css" rel="stylesheet"></link>
-  <link href="css/global.css?0" type="text/css" rel="stylesheet"></link>
 </head>
 <body>
   <div id="content">

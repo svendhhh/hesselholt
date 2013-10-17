@@ -15,18 +15,14 @@ function write_calendar_lines($lines) {
    $line_date = date_parse($parts[0]);
    $line_month = intval($line_date['month']);
    $line_day = intval($line_date['day']);
-   echo "<li><b>" . $line_day . "/" . $line_month . "</b> - " . trim($parts[1]) . "<br>" . trim($parts[2]) . ".<p></li>";
+   $line_year = intval($line_date['year']);
+   echo "<tr><td><b>" . $line_day . "/" . $line_month . "/" . $line_year . "</b></td><td> - " . trim($parts[1]) . " " . trim($parts[2]) . ".</td></tr>";
    }
 }
 
 ?>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Marianne Hesselholt - Forfatter og Foredragsholder.</title>
-  <script type="text/javascript" src="js/jquery.js" ></script>
-  <script type="text/javascript" src="js/global.js" ></script>
-  <link href="css/global.css?0" type="text/css" rel="stylesheet"></link>
+<?php macro_open_head(); ?>
 </head>
 <body>
   <div id="content">
@@ -34,11 +30,8 @@ function write_calendar_lines($lines) {
       <?php insert_header(4); ?>
       <div class="content-frame text">
 	<div class="centred">
-	  <table>
-	    <tr>
-	      <td>
 		<h2> Kalender <?php echo $year1; ?></h2>
-		<ul>
+		<table>
 		  <?php
 
 		     // Get first file for first period in calendar.
@@ -46,12 +39,10 @@ function write_calendar_lines($lines) {
 
 		     write_calendar_lines($lines);
 		   ?>
-		</ul>
-	      </td>
-
-	      <td valign="top">
+		</table>
+	      
 		<h2> Kalender <?php echo $year2; ?></h2>
-		<ul> 
+		<table> 
 		  <?php
 
 		     // Get first file for first period in calendar.
@@ -59,10 +50,10 @@ function write_calendar_lines($lines) {
 
 		     write_calendar_lines($lines);
 		   ?>
-		</ul>
-	      </td>
-	    </tr>
-	  </table>
+		</table>
+	      
+	    
+	  
 	</div>
 
       </div>
