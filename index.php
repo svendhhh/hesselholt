@@ -97,9 +97,9 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	  Eksterne links
 	</span>
 	<ul>
-	  <li>Danes in Argentina</li>
-	  <li>Dansk Teaterforlag</li>
-	  <li>Ingemann Selskabet</li>
+	  <li><a href="http://www.danes-in-argentina.dk/litterature.html">Danes in Argentina</a></li>
+	  <li><a href="http://www.danteater.dk/">Dansk Teaterforlag</a></li>
+	  <li><a href="http://www.ingemann-selskabet.dk/">Ingemann Selskabet</a></li>
 	</ul>
       </div>
     </div>
