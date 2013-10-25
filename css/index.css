@@ -105,3 +105,7 @@
 #nexttalk p {
     margin: 30px 0 0 30px;
 }
+
+#externallinks a {
+    color: #00c;
+}
