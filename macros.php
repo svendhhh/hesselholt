@@ -10,7 +10,7 @@
     <li data-row="3"><a href="books.php">Mariannes bøger</a></li>
     <li data-row="4"><a href="talks.php">Mariannes foredrag</a>
 		<ul>
-			<li data-row="4"><a href="#">Foredragskalender</a></li>
+			<li data-row="4"><a href="talks.php">Foredragskalender</a></li>
 			<li data-row="4"><a href="about-talks.php">Om mine foredrag</a></li>
 		</ul>
 	</li>
