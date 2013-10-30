@@ -46,20 +46,19 @@
 }
 
 #nav li:hover {
+    color: white;
     text-decoration:underline;
     background-color:#663;
 }
 
-#nav a:link,a:visited,button {
+#nav a,button {
     font-weight:bold;
     color:#FFFFFF;
     text-align:center;
-    padding:6px;
+#    padding:6px;
     text-decoration:none;
     text-transform:uppercase;
-}
-
-#nav a:hover,a:active,button:hover {
+    color:#fff;
 }
 
 /* submenu, it's hidden by default */
@@ -67,13 +66,15 @@
     position:absolute;
     left:0;
     display:none;
-    margin:0 0 0 -1px;
     padding:0;
     list-style:none;
+    width:100%;
+    margin:2px 0 0 -1px;
 }
 #nav ul li {
     float:left;
     border-top:1px solid #fff;
+    margin:2px 0 0 -1px;
 }
 
 /* display block will make the link fill the whole area of LI */
@@ -81,9 +82,8 @@
     display:block;
     height:15px;
     padding: 8px 5px;
-    color:#666;
 }
 
 #nav ul a:hover {
-    text-decoration:underline;    
+    text-decoration:underline;
 }

@@ -29,10 +29,14 @@
     margin-top: 20px;
 }
 
+button.readmore {
+    background-color:#690;
+}
+
 #featuredbook .readmore{
     position: absolute;
     top: 583px;
-    left: 1062px
+    left: 1062px;
 }
 
 #featuredbook .readmore:hover, #latestblog .readmore:hover {
