@@ -104,7 +104,7 @@ button.readmore {
     float: left;
     list-style-type: none;
     margin: auto;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 15px;
 }
 
 #nexttalk p {

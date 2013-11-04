@@ -21,6 +21,7 @@ require 'macros.php';
 	  <li>Hans Fugl. En udvandrerkrønike.</li>
 	  <li>Hjemstavn og Udsyn.</li>
 	  <li>Engle, milde eller vilde?</li>
+	  <li>Skyggen af en Hverdag (om Alzheimer).</li>
 	</ul>
 	<p>Pris for foredrag: 3000,- kr. plus transport.</p>
 

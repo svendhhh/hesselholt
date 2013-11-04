@@ -100,6 +100,8 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	  <li><a href="http://www.danes-in-argentina.dk/litterature.html">Danes in Argentina</a></li>
 	  <li><a href="http://www.danteater.dk/">Dansk Teaterforlag</a></li>
 	  <li><a href="http://www.ingemann-selskabet.dk/">Ingemann Selskabet</a></li>
+	  <li><a href="http://sogneaften.dk/Marianne%20Hesselholt.htm">Sogneaften.dk</a></li>
+	  <li><a href="http://foredrag.kristeligt-dagblad.dk/105:Marianne-Hesselholt">Foredragslisten.dk</a></li>
 	</ul>
       </div>
     </div>
