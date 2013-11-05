@@ -41,6 +41,10 @@ require 'macros.php';
 	  Udgav den første roman i 1993 og har herefter fungeret som fuldtidsforfatter og foredragsholder.
 	</p>
 
+	<p>
+	  Fik i 1996 et legat p&aring; 60.000 kr fra Statens Kunstfond til hendes arbejde p&aring; triologien om de tre danske 
+salmedigtere, Kingo, Brorson og Ingemann.
+	</p>
 	<hr style="clear:both" />
 
 	<span class="title">

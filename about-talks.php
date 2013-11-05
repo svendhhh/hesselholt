@@ -12,7 +12,7 @@ require 'macros.php';
       <?php insert_header(4); ?>
       <div class="content-frame text">
 
-	Jeg kommer i hele landet og typiske foredragsemner inkluderer:
+	Jeg kommer i hele landet med f&oslash;lgende foredrag:
 	<ul>
 	  <li>Thomas Kingo.</li>
 	  <li>Hans Adolph Brorson.</li>
