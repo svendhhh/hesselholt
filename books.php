@@ -13,6 +13,7 @@ require 'macros.php';
       <?php insert_header(3); ?>
       <div class="content-frame text">
 	<div class="centred">
+	  <a href="buy-a-book.php">Læs her om hvordan du kan købe Mariannes bøger.</a>
 	  <table class="books">
 	    <tr>
 	      <td><a href="johan.html"><img src="img/books/johan.jpg" alt="johan"><span class="booktitle">Johan</span></a></td>

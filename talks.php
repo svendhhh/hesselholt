@@ -29,9 +29,8 @@ function write_calendar_lines($lines) {
     <div id="body">
       <?php insert_header(4); ?>
       <div class="content-frame text">
-	<div class="centred">
-		<h2> Kalender <?php echo $year1; ?></h2>
-		<table>
+	<h2> Kalender <?php echo $year1; ?></h2>
+	<table>
 		  <?php
 
 		     // Get first file for first period in calendar.
@@ -39,10 +38,10 @@ function write_calendar_lines($lines) {
 
 		     write_calendar_lines($lines);
 		   ?>
-		</table>
+	</table>
 	      
-		<h2> Kalender <?php echo $year2; ?></h2>
-		<table> 
+	<h2> Kalender <?php echo $year2; ?></h2>
+	<table> 
 		  <?php
 
 		     // Get first file for first period in calendar.
@@ -50,12 +49,10 @@ function write_calendar_lines($lines) {
 
 		     write_calendar_lines($lines);
 		   ?>
-		</table>
+	</table>
 	      
 	    
 	  
-	</div>
-
       </div>
     </div>
   </div>

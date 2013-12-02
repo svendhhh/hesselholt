@@ -42,3 +42,6 @@ span.title{
     display:block;
 }
 
+div.centred {
+    text-align: center;
+}
