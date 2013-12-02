@@ -2,6 +2,14 @@
 
 <?php
 require 'macros.php';
+   
+if (isset($_GET["talk"])) {
+   $talk = $_GET["talk"];
+   if (file_exists("talks/" . $talk . ".xml")) {
+      $xml = simplexml_load_file("talks/" . $talk . ".xml");
+   }
+}
+
 ?>
 <html>
 <?php macro_open_head(); ?>
@@ -12,6 +20,9 @@ require 'macros.php';
       <?php insert_header(4); ?>
       <div class="content-frame text">
 
+	<?php
+	   if (empty($xml)) {
+	   ?>
 	Jeg kommer i hele landet med f&oslash;lgende foredrag:
 	<ul>
 	  <li>Thomas Kingo.</li>
@@ -25,6 +36,17 @@ require 'macros.php';
 	</ul>
 	<p>Pris for foredrag: 3000,- kr. plus transport.</p>
 
+	<?php
+	   }
+	   else {
+	   ?>
+	<span class="title"><?= $xml->title ?></span>
+	<div class="text">
+	  <?= $xml->body ?>
+	</div>
+	<?php
+	   }
+	   ?>
 
       </div>
     </div>
