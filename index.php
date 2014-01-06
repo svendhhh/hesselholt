@@ -36,7 +36,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	  </td>
 	  <td id="latestblog" rowspan="2" valign="top">
 	    <span class="title">
-	      Seneste blog post
+	      Eksempel p&aring; blogpost
 	    </span>
 	    <p class="blogtitle">
 	      119 – Et usædvanligt indblik i en bondestue og dens beboere
@@ -81,8 +81,6 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	              $line_date = date_parse($parts[0]);
 	              $line_month = intval($line_date['month']);
 	              $line_day = intval($line_date['day']);
-	              if ($line_month < $today_month) { continue; }
-                      if ($line_month == $today_month && $line_day < $today_day) { continue; }
 	              print($line_day . "/" . $line_month . " - " . implode(array_slice($parts, 1))."<br>");
 	              $count++;
 	           }

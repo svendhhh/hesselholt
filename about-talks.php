@@ -25,14 +25,14 @@ if (isset($_GET["talk"])) {
 	   ?>
 	Jeg kommer i hele landet med f&oslash;lgende foredrag:
 	<ul>
-	  <li>Thomas Kingo.</li>
-	  <li>Hans Adolph Brorson.</li>
-	  <li>Bernhard S. Ingemann.</li>
-	  <li>Lucie Mandix. En varm kvinde i en kold tid.</li>
-	  <li>Hans Fugl. En udvandrerkrønike.</li>
-	  <li>Hjemstavn og Udsyn.</li>
-	  <li>Engle, milde eller vilde?</li>
-	  <li>Skyggen af en Hverdag (om Alzheimer).</li>
+	  <a href="about-talks.php?talk=kingo"><li>Thomas Kingo.</li></a>
+	  <a href="about-talks.php?talk=brorson"><li>Hans Adolph Brorson.</li></a>
+	  <a href="about-talks.php?talk=ingemann"><li>Bernhard S. Ingemann.</li></a>
+	  <a href="about-talks.php?talk=lucie"><li>Lucie Mandix. En varm kvinde i en kold tid.</li></a>
+	  <a href="about-talks.php?talk=hans-fugl"><li>Hans Fugl. En udvandrerkrønike.</li></a>
+	  <a href="about-talks.php?talk=hjemstavn-og-udsyn"><li>Hjemstavn og Udsyn.</li></a>
+	  <a href="about-talks.php?talk=engle"><li>Engle, milde eller vilde?</li></a>
+	  <a href="about-talks.php?talk=skyggen-af-en-hverdag"><li>Skyggen af en Hverdag (om Alzheimer).</li></a>
 	</ul>
 	<p>Pris for foredrag: 3000,- kr. plus transport.</p>
 
@@ -45,6 +45,11 @@ if (isset($_GET["talk"])) {
 	  <?= $xml->body ?>
 	</div>
 	<?php
+	   if (isset($xml->image)) {
+	   ?>
+	<img src="img/<?= trim($xml->image) ?>" />
+	<?php
+	   }
 	   }
 	   ?>
 
