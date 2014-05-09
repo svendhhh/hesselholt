@@ -58,9 +58,10 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	    <p>
 	      <?php
 		 $today = getdate();
+		 $today_year = $today['year'];
 		 $today_month = intval($today['mon']);
 		 $today_day = intval($today['mday']);
-		 $lines = file("2013.txt", FILE_SKIP_EMPTY_LINES);
+		 $lines = file($today_year.".txt", FILE_SKIP_EMPTY_LINES);
 		 $count = 0;
 		 foreach($lines as &$line) {
 		   if ($count > 3) { break; }
@@ -74,7 +75,8 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	           $count++;
 	        }
                 if ($count < 4) {
-		   $lines = file("2014.txt", FILE_SKIP_EMPTY_LINES);
+		   $next_year = intval($today_year) + 1;
+		   $lines = file($next_year . ".txt", FILE_SKIP_EMPTY_LINES);
 		   foreach($lines as &$line) {
 		      if ($count > 3) { break; }
 	              $parts = explode(",", $line);
