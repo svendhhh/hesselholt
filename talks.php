@@ -16,7 +16,7 @@ function write_calendar_lines($lines) {
    $line_month = intval($line_date['month']);
    $line_day = intval($line_date['day']);
    $line_year = intval($line_date['year']);
-   echo "<tr><td><b>" . $line_day . "/" . $line_month . "/" . $line_year . "</b></td><td> - " . trim($parts[1]) . " " . trim($parts[2]) . ".</td></tr>";
+   echo "<tr><td><b>" . $line_day . "/" . $line_month . "/" . $line_year . "</b></td><td> - " . trim($parts[1]) . "</td><td>" . trim($parts[2]) . ".</td></tr>";
    }
 }
 
