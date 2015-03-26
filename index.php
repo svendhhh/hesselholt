@@ -39,13 +39,13 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	      Eksempel p&aring; blogpost
 	    </span>
 	    <p class="blogtitle">
-	      119 – Et usædvanligt indblik i en bondestue og dens beboere
+	      170 – lidt mere om Hesselholtdrengene
 	    </p>
 	    <p class="blogdate">
-	      Posted on 27. august 2013	
+	      Posted on 19. marts 2015
 	    </p>
 	    <p class="blogtext">
-	      Sidder for tiden dag ud og dag ind og læser Skagen Avis fra 1919 – 1925, og det kan ind imellem synes spild af tid, men af og til fanger man en flig af tidens atmosfære, og det er jo godt for en forfatter, der vil skrive om gamle dage.
+	      I Hændelser fra Hulsig hører vi om Janus’ sønnerne: Lars, Otto, Karl og Magnus – men vi hører ikke meget om, hvordan det går de fire Madssønner: De to af dem, Christian og Søren emigrerede til Idaho i Amerika, og her fandt jeg et par billeder.
 	    </p>
 	    <button class="readmore" onclick="location.href='http://blog.hesselholt.com'">Læs mere</button>
 	  </td>
