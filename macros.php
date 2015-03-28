@@ -1,5 +1,5 @@
 <?php
-   function insert_header($selected=0)
+   function insert_old_header($selected=0)
 {
    echo '
 <div id="headerImg"></div>
@@ -20,6 +20,30 @@
 ';
 }
 
+   function insert_header($selected=0,$rootPath='')
+{
+   echo '
+<div class="container" style="background-image:url(\''.$rootPath.'img/header.jpg\');
+background-repeat:no-repeat;
+height:198px;">
+	<!--h2>Marianne Hesselholt - Bøger</h2-->
+</div>
+<ul class="nav nav-tabs" role="tablist">
+	<li><a href="'.$rootPath.'index.php">Hjem</a></li>
+	<li><a href="'.$rootPath.'about.php">Om Marianne</a></li>
+	<li class="active"><a href="'.$rootPath.'books.php">Mariannes bøger</a></li>
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="'.$rootPath.'talks.php">Mariannes foredrag<span class="caret"></span></a>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="'.$rootPath.'talks.php">Foredragskalender</a></li>
+			<li><a href="'.$rootPath.'about-talks.php">Om mine foredrag</a></li>                        
+		</ul>
+	</li>
+	<li><a href="'.$rootPath.'contact.php">Kontakt</a></li>
+</ul>
+';
+}
+
+
 function macro_open_head()
 {
 	echo '
@@ -31,6 +55,23 @@ function macro_open_head()
 		<script type="text/javascript" src="js/global.js" ></script>
 		<link href="css/global.css?0" type="text/css" rel="stylesheet"></link>
 		<link href="css/navigation.css" type="text/css" rel="stylesheet"></link>
-		';
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+';
 }
+
+function macro_insert_footer()
+{
+	echo '
+	<hr />
+	<div class="row">
+		<div class="col-md-12" style="text-align: center">
+			&copy; Copyright Marianne Hesselholt 2015
+		</div>
+	</div>
+';
+}
+
+
 ?>

@@ -42,7 +42,7 @@ require 'macros.php';
             <tr>
 	      <td><a href="books/tobias-og-englen.html"><img src="img/books/tobias-og-englen-small.jpg" alt="small"><span class="booktitle">Tobias Og Englen</span></a></td>
 	      <td><a href="books/cut-og-godt.html"><img src="img/books/cut-og-godt-small.jpg" alt="small"><span class="booktitle">Cut Og Godt</span></a></td>
-	      <td><a href="books/digteren-og-malerinden.html"><img src="img/books/digteren-og-malerinden-small.jpg"><span class="booktitle">Digteren Og Malerinden</span></a></td>
+	      <td><a href="books/digteren-og-malerinden.php"><img src="img/books/digteren-og-malerinden-small.jpg"><span class="booktitle">Digteren Og Malerinden</span></a></td>
 	      <td><a href="books/haendelser-ved-hulsig.html"><img src="img/books/haendelser-ved-hulsig-104x150.png"><span class="booktitle">H&aelig;ndelser ved Hulsig</span></a></td>
 	    </tr>
 	  </table>

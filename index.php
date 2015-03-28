@@ -6,9 +6,15 @@ require 'macros.php';
 <html>
 <?php macro_open_head(); ?>
   <link href="css/index.css?0" type="text/css" rel="stylesheet"></link>
+  <style>
+	.container {
+		width: 940px;
+		padding: 0;
+	}
+  </style>
 </head>
 <body>
-  <div id="content">
+  <div id="content" class="container">
     <div id="body">
       <?php insert_header(1); ?>
       <div id="mugshot"></div>
@@ -108,6 +114,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
     <div id="footer">
 
     </div>
+	<?php macro_insert_footer(); ?>
 </div>
 </body>
 </html>
