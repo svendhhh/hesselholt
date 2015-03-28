@@ -29,20 +29,19 @@ height:198px;">
 	<!--h2>Marianne Hesselholt - Bøger</h2-->
 </div>
 <ul class="nav nav-tabs" role="tablist">
-	<li><a href="'.$rootPath.'index.php">Hjem</a></li>
-	<li><a href="'.$rootPath.'about.php">Om Marianne</a></li>
-	<li class="active"><a href="'.$rootPath.'books.php">Mariannes bøger</a></li>
-	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="'.$rootPath.'talks.php">Mariannes foredrag<span class="caret"></span></a>
+	<li'.($selected == 1 ? ' class="active"' : '').'><a href="'.$rootPath.'index.php">Hjem</a></li>
+	<li'.($selected == 2 ? ' class="active"' : '').'><a href="'.$rootPath.'about.php">Om Marianne</a></li>
+	<li'.($selected == 3 ? ' class="active"' : '').'><a href="'.$rootPath.'books.php">Mariannes bøger</a></li>
+	<li class="dropdown'.($selected == 4 ? ' active' : '').'"><a class="dropdown-toggle" data-toggle="dropdown" href="'.$rootPath.'talks.php">Mariannes foredrag<span class="caret"></span></a>
 		<ul class="dropdown-menu" role="menu">
 			<li><a href="'.$rootPath.'talks.php">Foredragskalender</a></li>
 			<li><a href="'.$rootPath.'about-talks.php">Om mine foredrag</a></li>                        
 		</ul>
 	</li>
-	<li><a href="'.$rootPath.'contact.php">Kontakt</a></li>
+	<li '.($selected == 5 ? 'class="active"' : '').'><a href="'.$rootPath.'contact.php">Kontakt</a></li>
 </ul>
 ';
 }
-
 
 function macro_open_head()
 {
