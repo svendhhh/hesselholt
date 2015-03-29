@@ -37,13 +37,13 @@ require 'macros.php';
 	      <td><a href="books/fugl1.html"><img src="img/books/fugl.jpg" alt="fugl"><span class="booktitle">Fugl i Danmark</span></a></td>
 	      <td><a href="books/fugl2.html"><img src="img/books/fugl2.jpg" alt="fugl2"><span class="booktitle">Fugl i Argentina</span></a></td>
 	      <td><a href="books/mellemlandet.html"><img src="img/books/mellemlandet.jpg" alt="mellemlandet"><span class="booktitle">Mellemlandet</span></a></td>
-	      <td><a href="books/skyggelys.html"><img src="img/books/skyggelys.jpg" alt="skyggelys"><span class="booktitle">Skyggelys</span></a></td>
+	      <td><a href="books/skyggelys.php"><img src="img/books/skyggelys.jpg" alt="skyggelys"><span class="booktitle">Skyggelys</span></a></td>
 	    </tr>
             <tr>
 	      <td><a href="books/tobias-og-englen.html"><img src="img/books/tobias-og-englen-small.jpg" alt="small"><span class="booktitle">Tobias Og Englen</span></a></td>
 	      <td><a href="books/cut-og-godt.html"><img src="img/books/cut-og-godt-small.jpg" alt="small"><span class="booktitle">Cut Og Godt</span></a></td>
 	      <td><a href="books/digteren-og-malerinden.php"><img src="img/books/digteren-og-malerinden-small.jpg"><span class="booktitle">Digteren Og Malerinden</span></a></td>
-	      <td><a href="books/haendelser-ved-hulsig.html"><img src="img/books/haendelser-ved-hulsig-104x150.png"><span class="booktitle">H&aelig;ndelser ved Hulsig</span></a></td>
+	      <td><a href="books/haendelser-ved-hulsig.php"><img src="img/books/haendelser-ved-hulsig-104x150.png"><span class="booktitle">H&aelig;ndelser ved Hulsig</span></a></td>
 	    </tr>
 	  </table>
 	</div>
