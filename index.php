@@ -37,7 +37,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	      <p class="booktext">
 		I bogen vil vi f&oslash;lge de gamle Hulsigsl&aelig;gter b&aring;de i lyse og m&oslash;rke tider. Vi vil se indenfor i de gamle g&aring;rde og f&oslash;lge livet der.
 	      </p>
-	      <button class="readmore" onclick="location.href='books/haendelser-ved-hulsig.html'">Læs mere</button>
+	      <button class="readmore" onclick="location.href='books/haendelser-ved-hulsig.php'">Læs mere</button>
 	    </div>
 	  </td>
 	  <td id="latestblog" rowspan="2" valign="top">
