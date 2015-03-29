@@ -42,8 +42,8 @@ require '../macros.php';
 
 		<p class="text-center">
 			Af Kirsten Marianne Hesselholt<br />
-			Forlaget Ancethe
-			420 sider – rigt illustreret
+			Forlaget Ancethe<br />
+			420 sider – rigt illustreret<br />
 			Kr. 299,00
 		</p>
 	</div>
