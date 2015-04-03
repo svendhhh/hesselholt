@@ -52,9 +52,9 @@ function macro_open_head()
 		<script type="text/javascript" src="js/jquery.js" ></script>
 		<script type="text/javascript" src="js/dropdown.js"></script>
 		<script type="text/javascript" src="js/global.js" ></script>
-		<link href="css/global.css?0" type="text/css" rel="stylesheet"></link>
-		<link href="css/navigation.css" type="text/css" rel="stylesheet"></link>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href="css/global.css?0" type="text/css" rel="stylesheet" />
+		<link href="css/navigation.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 ';
