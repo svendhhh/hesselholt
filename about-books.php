@@ -71,7 +71,7 @@ if (empty($xml))
 	?>
 	<hr/>
 	<div>
-		<div style="margin:2px 0 0 5px; font-size:17px; font-weight:bold;">
+		<div class="section-header">
 			<?= $xml->review_header ?>
 		</div>
 		<?php
@@ -101,7 +101,7 @@ if (empty($xml))
 			if (!empty($xml->review2_header))
 			{
 	?>
-		<div style="margin:2px 0 0 5px;	font-size:17px;	font-weight:bold;">
+		<div class="section-header">
 			<?= $xml->review2_header ?>
 		</div>
 	
@@ -131,7 +131,7 @@ if (empty($xml))
 		<hr/>
 
 		<div>
-			<div style="font-size:22px; font-weight:bold; padding:10px 0 0 10px;">
+			<div class="large-section-header">
 				<?= $xml->excerpt_header ?>
 			</div>
 			<div class="container">

@@ -45,3 +45,15 @@ span.title{
 div.centred {
     text-align: center;
 }
+
+.section-header {
+	margin:2px 0 0 5px;
+	font-size:17px;
+	font-weight:bold;
+}
+
+.large-section-header {
+	font-size: 22px;
+	font-weight: bold;
+	padding:10px 0 0 10px;
+}
