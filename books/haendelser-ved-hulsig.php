@@ -50,7 +50,6 @@ require '../macros.php';
 
 	<hr class="clear" />
 
-      <div class="text">
 	<div style="margin:2px 0 0 5px;
   font-size:17px;
   font-weight:bold;">
@@ -116,7 +115,6 @@ boghandlen
 
 </blockquote>
 
-      </div>
 
 	<?php macro_insert_footer() ?>
 
