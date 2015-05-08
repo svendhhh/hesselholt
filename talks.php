@@ -16,13 +16,14 @@ function write_calendar_lines($lines) {
    $line_month = intval($line_date['month']);
    $line_day = intval($line_date['day']);
    $line_year = intval($line_date['year']);
-   echo "<tr><td><b>" . $line_day . "/" . $line_month . "/" . $line_year . "</b></td><td> - " . trim($parts[1]) . "</td><td>" . trim($parts[2]) . ".</td></tr>";
+   echo "<tr><td class=\"col1\"><b>" . $line_day . "/" . $line_month . "/" . $line_year . "</b></td><td class=\"col2\"> - " . trim($parts[1]) . "</td><td class=\"col3\">" . trim($parts[2]) . ".</td></tr>";
    }
 }
 
 ?>
 <html>
 <?php macro_open_head(); ?>
+<link href="css/talks.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
   <div id="content">
@@ -30,7 +31,7 @@ function write_calendar_lines($lines) {
       <?php insert_header(4); ?>
       <div class="content-frame text">
 	<h2> Kalender <?php echo $year1; ?></h2>
-	<table>
+	<table class="talks-table">
 		  <?php
 
 		     // Get first file for first period in calendar.
@@ -41,7 +42,7 @@ function write_calendar_lines($lines) {
 	</table>
 	      
 	<h2> Kalender <?php echo $year2; ?></h2>
-	<table> 
+	<table class="talks-table"> 
 		  <?php
 
 		     // Get first file for first period in calendar.
