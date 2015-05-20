@@ -20,7 +20,7 @@ require 'macros.php';
 			<hr style="clear:both" />
 			<div class="jumbotron">
 				<p style="text-align:center">
-					<a target="_blank" href="img/Michaelispris1024x644.jpg">
+					<a href="img/Michaelispris1024x644.jpg" data-lightbox="Michaelis Pris" data-title="Michaelis Pris">
 						<img src="img/Michaelispris400x252.jpg" /><br />
 						<span>(Klik for stor version)</span>
 					</a>

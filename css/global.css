@@ -57,3 +57,7 @@ div.centred {
 	font-weight: bold;
 	padding:10px 0 0 10px;
 }
+
+.lightbox-image {
+	padding: 0 20px;
+}

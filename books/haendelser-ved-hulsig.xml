@@ -10,14 +10,22 @@
 	<price>220</price>
 	<jumbotron>
 		<![CDATA[
-			<p class="text-center">Fort&aelig;llinger fra Skagen Landsogn</p>
-
-			<p class="text-center">
-				Af Kirsten Marianne Hesselholt<br />
-				Forlaget Ancethe<br />
-				420 sider – rigt illustreret<br />
-				Kr. 299,00
-			</p>
+			<div style="text-align:center">
+				<div class="lead">Ny bog fra Marianne Hesselholt "Hændelser ved Hulsig"</div>
+				<a href="img/Artikel_om_HvH_af_Aarhus_Stiftstidene1.jpg" data-lightbox="Artikler om Hændelser ved Hulsig" data-title="Artikel om Hændelser ved Hulsig af Aarhus Stiftstidene1" class="lightbox-image">
+					<img src="img/Artikel_om_HvH_af_Aarhus_Stiftstidene1_211x300.jpg" />
+				</a>
+				<a href="img/Artikel_om_HvH_af_Aarhus_Stiftstidene2.jpg" data-lightbox="Artikler om Hændelser ved Hulsig" data-title="Artikel om Hændelser ved Hulsig af Aarhus Stiftstidene1" class="lightbox-image">
+					<img src="img/Artikel_om_HvH_af_Aarhus_Stiftstidene2_208x300.jpg" />
+				</a>
+				<a href="img/Artikel_om_HvH_af_Randers_Amtsavis.jpg" data-lightbox="Artikler om Hændelser ved Hulsig" data-title="Artikel om Hændelser ved Hulsig af Aarhus Stiftstidene1" class="lightbox-image">
+					<img src="img/Artikel_om_HvH_af_Randers_Amtsavis_139x300.jpg" />
+				</a>
+				<br />
+				<p>
+					(Klik på foto for stor version)
+				</p>
+			</div>
 		]]>
 	</jumbotron>
 	<review_header>
