@@ -15,7 +15,7 @@ require 'macros.php';
 				Prisvindende forfatter Marianne Hesselholt
 			</h2>
 			<div class="lead">
-				Marianne er modtager af Spar Nords Karen Michaëlis Pris 2014.<br /> Læs mere om hendes karriere, liv og familie nedenfor. 
+				Marianne er modtager af Spar Nords Karen Michaëlis Pris 2014.<br /> Læs mere om hendes forfatterskab, liv og familie nedenfor. 
 			</div>
 			<hr style="clear:both" />
 			<div class="jumbotron">
