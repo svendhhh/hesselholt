@@ -3,7 +3,7 @@
 <?php
 require 'macros.php';
 
-$year1=2016;
+$year1=2017;
 $year2=$year1+1;
 
 function write_calendar_lines($lines) {
