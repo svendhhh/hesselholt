@@ -45,13 +45,13 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	      Eksempel p&aring; blogpost
 	    </span>
 	    <p class="blogtitle">
-	      170 – lidt mere om Hesselholtdrengene
+	      Sapere aude – Kant kunne, kan du?
 	    </p>
 	    <p class="blogdate">
-	      Posted on 19. marts 2015
+	      Posted on 28. december 2017
 	    </p>
 	    <p class="blogtext">
-	      I Hændelser fra Hulsig hører vi om Janus’ sønnerne: Lars, Otto, Karl og Magnus – men vi hører ikke meget om, hvordan det går de fire Madssønner: De to af dem, Christian og Søren emigrerede til Idaho i Amerika, og her fandt jeg et par billeder.
+			Da B.S. Ingemann var en lille dreng, oplevede han et sandt drama i den ellers så fredelige præstegård i Torkildstrup. Hele familien var samlet om det store bord i stuen. Grandmaman tronede for den ene ende, pastor Ingemann for den anden, og rundt om sad store og små børn. Men de havde ikke som vanligt blikket rettet mod faren, og det var ikke hans fortællinger, de slugte.
 	    </p>
 	    <button class="readmore" onclick="location.href='http://blog.hesselholt.com'">Læs mere</button>
 	  </td>
