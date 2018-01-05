@@ -43,6 +43,7 @@ require 'macros.php';
 	      <td><a href="about-books.php?book=cut-og-godt"><img src="img/books/cut-og-godt-small.jpg" alt="small"><span class="booktitle">Cut Og Godt</span></a></td>
 	      <td><a href="about-books.php?book=digteren-og-malerinden"><img src="img/books/digteren-og-malerinden-small.jpg"><span class="booktitle">Digteren Og Malerinden</span></a></td>
 	      <td><a href="about-books.php?book=haendelser-ved-hulsig"><img src="img/books/haendelser-ved-hulsig-104x150.png"><span class="booktitle">H&aelig;ndelser ved Hulsig</span></a></td>
+	      <td><a><img src="img/books/kommer_snart.png"><span class="booktitle">Tobias og Englen</span></a></td>
 	      <td><a href=""><img src="" alt=""><span class="booktitle"></span></a></td>
 	    </tr>
 	  </table>
