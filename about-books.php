@@ -36,7 +36,13 @@ if (empty($xml))
   padding-left: 15px;"-->
 			<br />
 		<?php
-			if (!empty($xml->price))
+			if ($xml->udsolgt)
+			{
+				?>
+				Bogen er desværre udsolgt.
+				<?php
+			}
+			else if (!empty($xml->price))
 			{
 		?>
 			

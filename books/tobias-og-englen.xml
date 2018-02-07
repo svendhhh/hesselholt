@@ -7,7 +7,20 @@
 		]]>
 	</subheader>
 	<price>120</price>
-
+	<jumbotron>
+		<![CDATA[
+			<div style="text-align:center">
+				<div class="lead">Marianne præsenterer Tobias og Englen på Randers Bibliotek</div>
+				<a href="img/presentation-of-tobias-og-englen.jpg" data-lightbox="Marianne præsenterer Tobias og Englen på Randers Bibliotek" data-title="Marianne præsenterer Tobias og Englen på Randers Bibliotek" class="lightbox-image">
+					<img src="img/presentation-of-tobias-og-englen-500x430.jpg" />
+				</a>
+				<br />
+				<p>
+					(Klik på foto for stor version)
+				</p>
+			</div>
+		]]>
+	</jumbotron>
 	<review_header>
 		Uddrag fra pressemeddelelse angående bogen ”Tobias og Englen”
 	</review_header>
