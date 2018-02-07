@@ -16,6 +16,9 @@ body {
     top:-20px;
     border-radius:10px;
 }
+body div.container {
+	width: 970px;
+}
 div#content{
     width:940px;
     margin: auto;

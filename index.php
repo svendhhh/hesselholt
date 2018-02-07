@@ -32,12 +32,12 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 		Seneste bog
 	      </span>
 	      <p class="booktitle">
-		H&aelig;ndelser ved Hulsig
+			Tobias og Englen
 	      </p>
 	      <p class="booktext">
-		I bogen vil vi f&oslash;lge de gamle Hulsigsl&aelig;gter b&aring;de i lyse og m&oslash;rke tider. Vi vil se indenfor i de gamle g&aring;rde og f&oslash;lge livet der.
+			Tobias og Englen er en fri gendigtning af en mere end 2000 år gammel tekst ved navn ”Tobits Bog”. Bogen er en af de mange apokryfe tekster, som er forfattet på samme tid som bøgerne fra Det gamle Testamente, og den handler om en jødisk families skæbne
 	      </p>
-	      <button class="readmore" onclick="location.href='books/haendelser-ved-hulsig.php'">Læs mere</button>
+	      <button class="readmore" onclick="location.href='about-books.php?book=tobias-og-englen'">Læs mere</button>
 	    </div>
 	  </td>
 	  <td id="latestblog" rowspan="2" valign="top">
