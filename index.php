@@ -5,7 +5,7 @@ require 'macros.php';
 ?>
 <html>
 <?php macro_open_head(); ?>
-  <link href="css/index.css?0" type="text/css" rel="stylesheet"></link>
+  <link href="css/index.css?1" type="text/css" rel="stylesheet"></link>
   <style>
 	.container {
 		width: 940px;
