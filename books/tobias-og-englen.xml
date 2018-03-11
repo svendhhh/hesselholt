@@ -13,11 +13,16 @@
 				<div class="lead">Marianne præsenterer Tobias og Englen på Randers Bibliotek</div>
 				<a href="img/presentation-of-tobias-og-englen-1056x908.jpg" data-lightbox="Marianne præsenterer Tobias og Englen på Randers Bibliotek" data-title="Marianne præsenterer Tobias og Englen på Randers Bibliotek" class="lightbox-image">
 					<img src="img/presentation-of-tobias-og-englen-500x430.jpg" />
-				</a>
-				<br />
 				<p>
 					(Klik på foto for stor version)
 				</p>
+				</a>
+				<a href="img/tobiasAnmeldelse1636x938.png" data-lightbox="Anmeldelse af Tobias og Englen" data-title="Anmeldelse af Tobias og Englen" class="lightbox-image" id="anmeldelse-link">
+					<img src="img/tobiasAnmeldelse500x287.png" alt="anmeldelse" id="anmeldelse-billede" />
+					<p>
+						(Klik på foto for stor version)
+					</p>
+				</a>
 			</div>
 		]]>
 	</jumbotron>
