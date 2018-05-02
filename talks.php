@@ -3,7 +3,7 @@
 <?php
 require 'macros.php';
 
-$year1=2017;
+$year1=2018;
 $year2=$year1+1;
 
 function write_calendar_lines($lines) {
@@ -16,7 +16,7 @@ function write_calendar_lines($lines) {
    $line_month = intval($line_date['month']);
    $line_day = intval($line_date['day']);
    $line_year = intval($line_date['year']);
-   echo "<tr><td class=\"col1\"><b>" . $line_day . "/" . $line_month . "/" . $line_year . "</b></td><td class=\"col2\"> - " . trim($parts[1]) . "</td><td class=\"col3\">" . trim($parts[2]) . ".</td></tr>";
+   echo "<tr><td class=\"col1\"><b>" . ($line_day > 9 ? "" : "0") . $line_day . "/" . ($line_month > 9 ? "" : "0") . $line_month . "/" . $line_year . "</b></td><td class=\"col2\"> - " . trim($parts[1]) . "</td><td class=\"col3\">" . trim($parts[2]) . ".</td></tr>";
    }
 }
 
