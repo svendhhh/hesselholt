@@ -53,7 +53,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	    <p class="blogtext">
 			Da B.S. Ingemann var en lille dreng, oplevede han et sandt drama i den ellers så fredelige præstegård i Torkildstrup. Hele familien var samlet om det store bord i stuen. Grandmaman tronede for den ene ende, pastor Ingemann for den anden, og rundt om sad store og små børn. Men de havde ikke som vanligt blikket rettet mod faren, og det var ikke hans fortællinger, de slugte.
 	    </p>
-	    <button class="readmore" onclick="location.href='http://blog.hesselholt.com'">Læs mere</button>
+	    <button class="readmore" onclick="location.href='https://blog.hesselholt.com/2017/12/28/sapere-aude-kant-kunne-kan-du/'">Læs mere</button>
 	  </td>
 	</tr>
 	<tr>
