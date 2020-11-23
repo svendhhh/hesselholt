@@ -17,10 +17,11 @@ require 'macros.php';
 	<div class="text">Sådan køber du Mariannes bøger.</div>
 
 	<div class="text">
-	  Hos boghandleren koster bøgerne stadig fra 199 kr. til 299. kr.<br />
-	  Hos forfatteren kan du købe dem til <b>blot 120 kr.</b> og få dem tilsendt <b>portofrit</b>. <br />
-	  Bestiller man over 4 bøger ( f.eks. klassesæt ) koster det dog porto.<br />
-	  Du skal blot skrive din adresse til mig - så sender jeg bogen sammen med en faktura.
+		Du kan købe bøgerne ved at sende en email til <img src="img/email.gif" style="height:24px;padding-bottom:4px;"><br />
+		eller ringe til <b>29 66 46 83</b> og få dem tilsendt <b>portofrit</b>. <br />
+		Find priserne på siderne for de enkelte bøger.<br />
+		Bestiller man over 4 bøger ( f.eks. klassesæt ) koster det dog porto.<br />
+		Du skal blot skrive din adresse til mig - så sender jeg bogen sammen med en faktura.
 	</div>
 
       </div>
