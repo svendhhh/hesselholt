@@ -2,7 +2,7 @@
 	<title>Blues</title>
 	<image>img/books/blues.jpg</image>
 	<image_title>Blues</image_title>
-	<price>70</price>
+	<udsolgt>true</udsolgt>
 	<review_header>Lektørudtalelse</review_header>
 	<review>
 		<![CDATA[
