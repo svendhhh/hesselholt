@@ -17,7 +17,7 @@
 }
 
 #featuredbookimg{
-    background-image: url('../img/books/tobias-og-englen-115x175.jpg');
+    background-image: url('../img/books/dronning-elisabeth-af-kandestederne.jpg');
     margin: 10px;
     height: 180px;
     width: 115px;
@@ -27,11 +27,16 @@
 
 #featuredbooktxt p {
     margin-top: 20px;
+	padding-right: 5px;
 }
 
 button.readmore {
     background-color:#690;
     padding:6px;
+}
+
+.title .highlighted {
+	color: #f35;
 }
 
 #featuredbook .readmore{

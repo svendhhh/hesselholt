@@ -48,7 +48,7 @@ if (empty($xml))
 			
 			<p class="lead">
 			Send mig en mail, hvis du vil købe bogen. Den koster <?= $xml->price ?> kr og sendes portofrit.
-			<a href="mailto:marianne@hesselholt.com?subject=K&oslash;b af <?= $xml->title ?>">marianne@hesselholt.com</a>
+			<a href="mailto:marianne@hesselholt.com?subject=K&oslash;b af <?= $xml->title ?>" target="_blank">marianne@hesselholt.com</a>
 			</p>
 			<a href="mailto:marianne@hesselholt.com?subject=K&oslash;b af <?= $xml->title ?>" class="btn btn-info" role="button">
 			Kr <?= $xml->price ?>,-

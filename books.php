@@ -46,6 +46,10 @@ require 'macros.php';
 	      <td><a href="about-books.php?book=tobias-og-englen"><img src="img/books/tobias-og-englen.jpg"><span class="booktitle">Tobias og Englen</span></a></td>
 	      <td><a href=""><img src="" alt=""><span class="booktitle"></span></a></td>
 	    </tr>
+	    </tr>
+		<tr>
+	      <td><a href="about-books.php?book=dronning-elisabeth-af-kandestederne"><img src="img/books/dronning-elisabeth-af-kandestederne.jpg" alt="dronning-elisabeth-af-kandestederne" ><span class="booktitle">Dronning Elisabeth af Kandestederne</span></a></td>
+	    </tr>
 	  </table>
 	</div>
 

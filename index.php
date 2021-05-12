@@ -5,7 +5,7 @@ require 'macros.php';
 ?>
 <html>
 <?php macro_open_head(); ?>
-  <link href="css/index.css?1" type="text/css" rel="stylesheet"></link>
+  <link href="css/index.css?2" type="text/css" rel="stylesheet"></link>
   <style>
 	.container {
 		width: 940px;
@@ -29,15 +29,15 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	    <div id="featuredbookimg"></div>
 	    <div id="featuredbooktxt">
 	      <span class="title">
-		Seneste bog
+		Seneste bog <span class="highlighted">- Udkommer 20. maj 2021</span>
 	      </span>
 	      <p class="booktitle">
-			Tobias og Englen
+			Dronning Elisabeth af Kandestederne
 	      </p>
 	      <p class="booktext">
-			Tobias og Englen er en fri gendigtning af en mere end 2000 år gammel tekst ved navn ”Tobits Bog”. Bogen er en af de mange apokryfe tekster, som er forfattet på samme tid som bøgerne fra Det gamle Testamente, og den handler om en jødisk families skæbne
+			Den 20. maj udgiver forlaget Ancethe den biografiske roman ”Dronning Elisabeth af Kandestederne.” Bogen handler om den kvinde, der sammen med sin mand grundlagde et af forrige århundredes mest berømte badehoteller: Kokholms Badehotel.
 	      </p>
-	      <button class="readmore" onclick="location.href='about-books.php?book=tobias-og-englen'">Læs mere</button>
+	      <button class="readmore" onclick="location.href='about-books.php?book=dronning-elisabeth-af-kandestederne'">Læs mere</button>
 	    </div>
 	  </td>
 	  <td id="latestblog" rowspan="2" valign="top">
