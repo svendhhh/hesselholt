@@ -53,7 +53,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	    <p class="blogtext">
 			Coronatid har betydet næsten totalt foredragsophør. Det er mit ønske at fortsætte med den virksomhed, men i begrænset omfang. Foredragene er reduceret til kun nedenstående tre. Men det er klart, at hvis nogen virkelig ønsker foredrag om de store salmedigtere, så er jeg parat. Jeg har elsket at rejse med de tre store: Brorson, Kingo og Ingemann.
 	    </p>
-	    <button class="readmore" onclick="location.href='https://blog.hesselholt.com/2017/12/28/sapere-aude-kant-kunne-kan-du/'">Læs mere</button>
+	    <button class="readmore" onclick="location.href='https://blog.hesselholt.com/2021/03/28/mine-foredrag/'">Læs mere</button>
 	  </td>
 	</tr>
 	<tr>
