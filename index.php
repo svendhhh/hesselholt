@@ -45,13 +45,13 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	      Eksempel p&aring; blogpost
 	    </span>
 	    <p class="blogtitle">
-	      Sapere aude – Kant kunne, kan du?
+	      Mine foredrag
 	    </p>
 	    <p class="blogdate">
-	      Posted on 28. december 2017
+	      Posted d. 28. marts 2021
 	    </p>
 	    <p class="blogtext">
-			Da B.S. Ingemann var en lille dreng, oplevede han et sandt drama i den ellers så fredelige præstegård i Torkildstrup. Hele familien var samlet om det store bord i stuen. Grandmaman tronede for den ene ende, pastor Ingemann for den anden, og rundt om sad store og små børn. Men de havde ikke som vanligt blikket rettet mod faren, og det var ikke hans fortællinger, de slugte.
+			Coronatid har betydet næsten totalt foredragsophør. Det er mit ønske at fortsætte med den virksomhed, men i begrænset omfang. Foredragene er reduceret til kun nedenstående tre. Men det er klart, at hvis nogen virkelig ønsker foredrag om de store salmedigtere, så er jeg parat. Jeg har elsket at rejse med de tre store: Brorson, Kingo og Ingemann.
 	    </p>
 	    <button class="readmore" onclick="location.href='https://blog.hesselholt.com/2017/12/28/sapere-aude-kant-kunne-kan-du/'">Læs mere</button>
 	  </td>
