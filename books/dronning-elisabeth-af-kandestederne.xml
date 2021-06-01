@@ -44,6 +44,24 @@
 			<p>
 				<a href="mailto:marianne@hesselholt.com?subject=K&oslash;b af Dronning Elisabeth af Kandestederne">marianne@hesselholt.com</a><br>
 			</p>
+			<div class="jumbotron">
+				<h2 style="text-align:center">
+					Artikel om bogen
+				</h2>
+				<hr />
+				<p style="text-align:center">
+					<a href="img/Artikel_om_Elisabeth_1_1418x1600.jpg" data-lightbox="Michaelis Pris1" data-title="Michaelis Pris">
+						<img src="img/Artikel_om_Elisabeth_1_400x451.jpg" /><br />
+						<span>(Klik for stor version)</span>
+					</a>
+					<br />
+					<a href="img/Artikel_om_Elisabeth_2_1600x1570.jpg" data-lightbox="Michaelis Pris2" data-title="Michaelis Pris">
+						<img src="img/Artikel_om_Elisabeth_2_400x393.jpg" /><br />
+						<span>(Klik for stor version)</span>
+					</a>
+				</p>
+			</div>
+
 		]]>
 	</review>
 </xml>
