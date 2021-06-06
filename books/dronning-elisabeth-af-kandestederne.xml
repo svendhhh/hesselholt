@@ -3,6 +3,12 @@
 	<image>img/books/dronning-elisabeth-af-kandestederne.jpg</image>
 	<image_title>Blues</image_title>
 	<price>220</price>
+	<jumbotron>
+		<![CDATA[
+			<h4>Citat fra lektørudtalelsen:</h4>
+			"Vurdering: Underholdende og velskrevet fortælling. En rigtig god læseoplevelse, hvor man bliver inspireret til at læse meget mere om Kokholms Hotel og gense “Badehotellet” 
+		]]>
+	</jumbotron>
 	<review_header>Pressemeddelelse</review_header>
 	<review>
 		<![CDATA[
