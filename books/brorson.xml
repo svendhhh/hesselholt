@@ -3,9 +3,9 @@
 	<image>img/books/brorson.jpg</image>
 	<image_title>Brorsons Billeder</image_title>
 	<price>200</price>
-	<review_header>Lektørudtalelse:</review_header>
-	<review_subheader>Brorsons billeder - roman om Hans Adolph Brorson - Haase - 277 sider.</review_subheader>
 	<review>
+		<header>Lektørudtalelse:</header>
+		<subheader>Brorsons billeder - roman om Hans Adolph Brorson - Haase - 277 sider.</subheader>
 		<![CDATA[
 			Biografisk roman om salmedigteren H.A. Brorson (1694-1794). Hesselholt har gennemg&aring;et et
 			"righoldigt kildemateriale", hvilket afspejler sig i bogens trov&aelig;rdige tidsbillede. Det er hendes

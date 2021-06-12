@@ -3,9 +3,9 @@
 	<image>img/books/johan.jpg</image>
 	<image_title>Johan</image_title>
 	<udsolgt>true</udsolgt>
-	<review_header>Lektørudtalelse:</review_header>
-	<review_subheader>Johan: roman om en dreng i 1700-tallets Danmark - Modtryk - 187 sider.</review_subheader>
 	<review>
+		<header>Lektørudtalelse:</header>
+		<subheader>Johan: roman om en dreng i 1700-tallets Danmark - Modtryk - 187 sider.</subheader>
 		<![CDATA[
 			Den for&aelig;ldrel&oslash;se taterunge Johan bliver fundet som t&oslash;jbylt af en soldat foran B&oslash;rnehuset i 1700
 			tallets K&oslash;benhavn. Kokkepigen Karen tager sig af ham. I ly af k&oslash;kkenet oplever Johan de usle og r&aring;

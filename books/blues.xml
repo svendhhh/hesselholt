@@ -3,8 +3,8 @@
 	<image>img/books/blues.jpg</image>
 	<image_title>Blues</image_title>
 	<udsolgt>true</udsolgt>
-	<review_header>Lektørudtalelse</review_header>
 	<review>
+		<header>Lektørudtalelse</header>
 		<![CDATA[
 			De sm&aring; noveller handler om b&oslash;rn og unge og deres rejse
 			ind i den fr emmede voksne verden, de um&aelig;rkelige, men

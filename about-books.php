@@ -70,28 +70,31 @@ if (empty($xml))
 
 	<?php
 		}
-		if (!empty($xml->review))
+		foreach($xml->review as $review)
 		{
+			if (!empty($review))
+			{
 	?>
 	<hr/>
 	<div>
 		<div class="section-header">
-			<?= $xml->review_header ?>
+			<?= $review->header ?>
 		</div>
 		<?php
-			if (!empty($xml->review_subheader))
+			if (!empty($review->subheader))
 			{
 		?>
-		<p><?= $xml->review_subheader ?></p>
+		<p><?= $review->subheader ?></p>
 		<?php
 			}
 		?>
 		<blockquote>
-			<?= $xml->review ?>
+			<?= $review ?>
 		</blockquote>
 
 	</div>
 	<?php
+			}
 		}
 	?>
 

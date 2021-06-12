@@ -27,10 +27,10 @@
 			</div>
 		]]>
 	</jumbotron>
-	<review_header>
-		Uddrag fra pressemeddelelse angående bogen ”Tobias og Englen”
-	</review_header>
 	<review>
+		<header>
+			Uddrag fra pressemeddelelse angående bogen ”Tobias og Englen”
+		</header>
 		<![CDATA[
 				<p>
 					”Tobias og Englen er en fri gendigtning af en mere end 2000 år gammel tekst ved navn ”Tobits

@@ -3,9 +3,9 @@
 	<image>img/books/cirkel.jpg</image>
 	<image_title>Cirkelbarn og Sommerfugl</image_title>
 	<price>120</price>
-	<review_header>Lektørudtalelse:</review_header>
-	<review_subheader>Cirkelbarn og sommerfugl - Thaning og Appel - 144 sider.</review_subheader>
 	<review>
+		<header>Lektørudtalelse:</header>
+		<subheader>Cirkelbarn og sommerfugl - Thaning og Appel - 144 sider.</subheader>
 		<![CDATA[
 			MH har tidligere bl.a. skrevet for voksne i den historiske genre. Her er s&aring; en nutidig lille roman om
 			to outsidere, der f&aring;r en slags f&aelig;llesskab: en senil gammel mand forlader det plejehjem hvor han

@@ -3,8 +3,8 @@
 	<image>img/books/dejlig.jpg</image>
 	<image_title>Dejlig er Jorden</image_title>
 	<udsolgt>true</udsolgt>
-	<review_header>Lektørudtalelse:</review_header>
 	<review>
+		<header>Lektørudtalelse:</header>
 		<![CDATA[
 			<p>Dejlig er Jorden: 10 kapitler af digterens B.S.Ingemanns liv/Marianne Hesselholt. Net-bog-klubben. -221 sider.</p>
 

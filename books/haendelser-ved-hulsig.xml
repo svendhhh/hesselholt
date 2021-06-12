@@ -28,10 +28,10 @@
 			</div>
 		]]>
 	</jumbotron>
-	<review_header>
-		Pressemeddelelse angående bogen ”Hændelser ved Hulsig”
-	</review_header>
 	<review>
+		<header>
+			Pressemeddelelse angående bogen ”Hændelser ved Hulsig”
+		</header>
 		<![CDATA[
 				<p>
 			”Hændelser ved Hulsig” er både en egnsskildring af et lille forblæst sogn syd for Skagen og en 

@@ -4,9 +4,9 @@
 	<image_title>Outside</image_title>
 	<buy_link>http://www.net-bog-klubben.dk/</buy_link>
 	<price>70</price>
-	<review_header>Lektørudtalelse:</review_header>
-	<review_subheader>Outside - noveller - Net-Bog-Klubben - 69 sider.</review_subheader>
 	<review>
+		<header>Lektørudtalelse:</header>
+		<subheader>Outside - noveller - Net-Bog-Klubben - 69 sider.</subheader>
 		<![CDATA[
 			Marianne Hesselholt har jo efterh&aring;nden et ganske omfattende forfatterskab for b&aring;de b&oslash;rn og voksne
 			bag sig; denne novellesamling henvender sig til unge og voksne l&aelig;sere. Titlen er meget betegnende

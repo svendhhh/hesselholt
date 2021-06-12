@@ -3,16 +3,16 @@
 	<image>img/books/mellemlandet128x200.jpg</image>
 	<image_title>Mellemlandet</image_title>
 	<price>100</price>
-	<review_header>Lektørudtalelse:</review_header>
-	<review_subheader>
-		<![CDATA[
-			Lektorudtalelse (09/07) 2 757 480 7 (A)<br>
-			Hesselholt, Marianne:
-			Mellemlandet og andre fort&aelig;llinger om menneskeb&oslash;rn / Marianne
-			Hesselholt. - Ancethe. - 159 sider.
-		]]>
-	</review_subheader>
 	<review>
+		<header>Lektørudtalelse:</header>
+		<subheader>
+			<![CDATA[
+				Lektorudtalelse (09/07) 2 757 480 7 (A)<br>
+				Hesselholt, Marianne:
+				Mellemlandet og andre fort&aelig;llinger om menneskeb&oslash;rn / Marianne
+				Hesselholt. - Ancethe. - 159 sider.
+			]]>
+		</subheader>
 		<![CDATA[
 			<p>Anvendelse/m&aring;lgruppe:</p>
 			<p>

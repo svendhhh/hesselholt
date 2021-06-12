@@ -3,11 +3,9 @@
 	<image>img/books/fugl128x200.jpg</image>
 	<image_title>Fugl i Danmark</image_title>
 	<price>120</price>
-	<review_header>Lektørudtalelse:</review_header>
-	<review_subheader>
-		Hesselholt, Marianne: Fugl i Danmark: en udvandrerkrønike. Ancethe. 258 sider.
-	</review_subheader>
 	<review>
+		<header>Lektørudtalelse:</header>
+		<subheader>Hesselholt, Marianne: Fugl i Danmark: en udvandrerkrønike. Ancethe. 258 sider.</subheader>
 		<![CDATA[
 			F&oslash;rste del af romanbiografi, der dels bygger p&aring;
 			de 1000 h&aring;ndskrevne sider hovedpersonen Hans Christian Fugl

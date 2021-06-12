@@ -3,9 +3,9 @@
 	<image>img/books/gylden.jpg</image>
 	<image_title>Gylden Sol Og Sorte Skyer</image_title>
 	<price>200</price>
-	<review_header>Lektørudtalelse:</review_header>
-	<review_subheader>Gylden sol og sorte skyer: roman om Thomas Kingo - Haase - 326 sider.</review_subheader>
 	<review>
+		<header>Lektørudtalelse:</header>
+		<subheader>Gylden sol og sorte skyer: roman om Thomas Kingo - Haase - 326 sider.</subheader>
 		<![CDATA[
 			En velskrevet og medrivende romanbiografi om den danske ber&oslash;mte salme-og barokdigter, Thomas
 			Kingo, 1634-1703. Romanen er letl&aelig;st og henvender sig bredt til voksne roman- og biografil&aelig;sere
