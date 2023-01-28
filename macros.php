@@ -70,7 +70,7 @@ function macro_insert_footer()
 	<hr />
 	<div class="row">
 		<div class="col-md-12" style="text-align: center">
-			&copy; Copyright Marianne Hesselholt 2021
+			&copy; Copyright Marianne Hesselholt 2023
 		</div>
 	</div>
 ';
