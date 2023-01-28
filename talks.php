@@ -56,6 +56,7 @@ function write_calendar_lines($lines) {
 	  
       </div>
     </div>
+	<?php macro_insert_footer(); ?>
   </div>
 </body>
 </html>
