@@ -34,12 +34,17 @@ height:198px;">
 	<li'.($selected == 2 ? ' class="active"' : '').'><a href="'.$rootPath.'about.php">Om Marianne</a></li>
     <li><a href="http://blog.hesselholt.com/">Mariannes blog</a></li>
 	<li'.($selected == 3 ? ' class="active"' : '').'><a href="'.$rootPath.'books.php">Mariannes bøger</a></li>
-	<li class="dropdown'.($selected == 4 ? ' active' : '').'"><a class="dropdown-toggle" data-toggle="dropdown" href="'.$rootPath.'talks.php">Mariannes foredrag<span class="caret"></span></a>
+';
+
+/*
+<li class="dropdown'.($selected == 4 ? ' active' : '').'"><a class="dropdown-toggle" data-toggle="dropdown" href="'.$rootPath.'talks.php">Mariannes foredrag<span class="caret"></span></a>
 		<ul class="dropdown-menu" role="menu">
 			<li><a href="'.$rootPath.'talks.php">Foredragskalender</a></li>
 			<li><a href="'.$rootPath.'about-talks.php">Om mine foredrag</a></li>                        
 		</ul>
 	</li>
+*/
+echo '
 	<li '.($selected == 5 ? 'class="active"' : '').'><a href="'.$rootPath.'contact.php">Kontakt</a></li>
 </ul>
 ';
