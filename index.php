@@ -58,6 +58,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	</tr>
 	<tr>
 	  <td id="nexttalk" valign="top">
+<?php /*
 	    <span class="title">
 	      Kommende foredrag
 	    </span>
@@ -93,8 +94,9 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 	              $count++;
 	           }
                 }  
-	      ?>
-            </p>
+*/
+		?>
+	     </p>
 	  </td>
 	</tr>
       </table>
