@@ -23,7 +23,7 @@ if (isset($_GET["talk"])) {
 	<?php
 	   if (empty($xml)) {
 	   ?>
-	Jeg kommer i hele landet med f&oslash;lgende foredrag:
+	Jeg kommer ikke længere rundt i landet med mine foredrag, men holder dem kun i kort afstand fra hjemmet (i Ålum). Jeg holder blandt andet foredrag om f&oslash;lgende:
 	<ul>
 	  <a href="about-talks.php?talk=hjemstavn-og-udsyn"><li>Hjemstavn og Udsyn.</li></a>
 	  <a href="about-talks.php?talk=dronning-elisabeth"><li>Dronning Elisabeth af Kandestederne</li></a>
