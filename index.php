@@ -70,6 +70,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 		 $lines = file($today_year.".txt", FILE_SKIP_EMPTY_LINES);
 		 $count = 0;
 		 foreach($lines as &$line) {
+               if (ctype_space($line)) { continue; }
 		   if ($count > 3) { break; }
 	           $parts = explode(",", $line);
 	           $line_date = date_parse($parts[0]);
@@ -84,6 +85,7 @@ Velkommen til Marianne Hesselholts hjemmeside. Her kan du finde oplysninger om e
 		   $next_year = intval($today_year) + 1;
 		   $lines = file($next_year . ".txt", FILE_SKIP_EMPTY_LINES);
 		   foreach($lines as &$line) {
+               if (ctype_space($line)) { continue; }
 		      if ($count > 3) { break; }
 	              $parts = explode(",", $line);
 	              $line_date = date_parse($parts[0]);
